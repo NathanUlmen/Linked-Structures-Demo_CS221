@@ -14,6 +14,7 @@ public class DucksInARow {
 
         temp.setNext(first);
         first = temp;
+        temp = null;
 
         // first -> Daffy -> Donald -> Scrooge -> Darkwing -> null
 
